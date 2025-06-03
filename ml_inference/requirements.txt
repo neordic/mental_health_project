@@ -1,0 +1,15 @@
+SQLAlchemy
+psycopg2-binary
+celery
+redis
+pandas
+joblib
+scikit-learn
+python-dotenv
+pydantic
+pydantic-settings
+pydantic[email]
+prometheus_client
+
+pytest
+pytest-mock
