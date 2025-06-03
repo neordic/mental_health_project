@@ -14,10 +14,6 @@ import json
 
 from ml_inference.core.logger import get_logger
 
-# from ml_inference.monitoring.metrics import inference_duration_hist
-import time  
-
-
 
 logger = get_logger("ml_inference_task")
 
@@ -27,14 +23,9 @@ def run_inference_task(model_type: str, user_input: dict, user_id: int):
     logger.info(f"[START] Inference task started | model_type={model_type} | user_id={user_id}")
     
     input_obj = InferenceInput(**user_input)  
-    start_time = time.time()
+    
     result = sync_task(model_type, input_obj)
-    duration = time.time() - start_time
-
-    logger.info(f"[METRIC] Duration = {duration:.4f} sec — sending to Prometheus")
-    logger.info(f"[METRIC DEBUG] Actual inference time = {duration:.6f} seconds")
-
-    inference_duration_hist.observe(duration)
+    
 
     logger.info(f"[INFERENCE] Inference result received | model_type={model_type} | result_type={type(result)}")
    
