@@ -14,7 +14,7 @@ import json
 
 from ml_inference.core.logger import get_logger
 
-from ml_inference.monitoring.metrics import inference_duration_hist
+# from ml_inference.monitoring.metrics import inference_duration_hist
 import time  
 
 
