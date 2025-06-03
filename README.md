@@ -67,7 +67,7 @@
 
 Метрики мониторинга собираются и доступны в Grafana через Prometheus
 
-![Grafana Dashboard](assets\dashboard_show.gif)
+![Grafana Dashboard](assets/dashboard_show.gif)
 
 
 Сейчас собираются метрики:
@@ -141,7 +141,7 @@ mental_health_project
 
 # MVP
 
-![MVP](assets\mvp_show.gif)
+![MVP](assets/mvp_show.gif)
 
 
 # Рефлексия
@@ -161,12 +161,12 @@ mental_health_project
 2. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/neordic/mental_health_project.git
 
 3. Перейдите в корневую папку проекта:
 
     ```bash
-    cd your-repo-name
+    cd mental_health_project
 
 4. Запустите все сервисы:
 
