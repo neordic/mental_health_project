@@ -67,6 +67,8 @@
 
 Метрики мониторинга собираются и доступны в Grafana через Prometheus
 
+**(кликните на гифку, чтобы воспроизвести)**
+
 ![Grafana Dashboard](assets/dashboard_show.gif)
 
 
@@ -140,6 +142,8 @@ mental_health_project
 ```
 
 # MVP
+
+**(кликните на гифку, чтобы воспроизвести)**
 
 ![MVP](assets/mvp_show.gif)
 
